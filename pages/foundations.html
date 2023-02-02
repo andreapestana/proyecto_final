@@ -11,37 +11,53 @@
 </head>
 <body>
     <header>
-      <nav>
-        <ul class="nav justify-content bg-warning p-1">
-            <li class="nav-item">
-                <img src="/media/logo.png" alt="logo" width="60px">
-              </li>
-            <li class="nav-item">
-              <a class="nav-link active colornav" aria-current="page" href="/index.html">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link colornav" href="./aboutus.html">About us</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link colornav" href="./dogtips.html">Dog's tips</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link colornav" href="./foundations.html">Foundations</a>
+      <nav class="navbar fixed-top navbar-expand-lg bg-warning">
+        <div class="container">
+          <a class="navbar-brand" href="#"><img src="/media/logo.png" alt="logo" width="50px"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active colornav" aria-current="page" href="/index.html">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link colornav" href="./contact.html">Contact us</a>
+                <a class="nav-link colornav" href="./aboutus.html">About us</a>
               </li>
-        </ul>
+              <li class="nav-item">
+                <a class="nav-link colornav" href="./dogtips.html">Dog's tips</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link colornav" href="./foundations.html">Foundations</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link colornav" href="./contact.html">Contact us</a>
+                </li>
+            </ul>
+          </div>
+        </div>
+        </div>
     </nav>
     </header>
     </header>
 
     <main>
-      <h1 class="foundation-title">Would you like to help us?</h1>
-      <p class="foundation-text">
+
+      <div class="card-container">
+        <div class="card text-bg-dark mb-3 container-fluid" style="max-width: 70rem;">
+          <div class="card-header">Why is your dog your best friend?</div>
+          <div class="card-body">
+            <p class="card-text">On several occasions, the dog has been declared as man's best friend, because during its existence it has proven its loyalty, fidelity and even its ability to give its life for its loved ones. In fact, you can be sure that your furry companion will always be by your side, regardless of your presence, he will offer you his protection and give you sincere love.</p>
+          </div>
+        </div>
+      <!-- <div>
+        <h1>Would you like to help us?</h1>
+      <p>
     There are many foundations in the country that help thousand of pets. They Promote collective awareness by promoting
      sterilization, respect for life, NO to animal abuse and responsible adoption
       </p>
+      </div> -->
       <div class="row row-cols-1 row-cols-md-3 g-4">
         <div class="col">
           <div class="card h-100">
@@ -70,39 +86,14 @@
           </div>
         </div>
       </div>
-      <!-- <h1 class="foundation-title">Would you like to help us?</h1>
-      <p class="foundation-text">
-    There are many foundations in the country that help thousand of pets. They Promote collective awareness by promoting
-     sterilization, respect for life, NO to animal abuse and responsible adoption
-      </p>
-
-      <div class="card">
-      </div>
-      <div class="card">
-        <div class="card-body">
-          <h3 class="card-title">Fundacion Corazon Animal</h3>
-          <p class="card-text">fundación sin animo de lucro que se encarga de dar albergue a perros y gatos de Medellin y el área metropolitana, en situación de abandono y vulnerabilidad con el fin de encontrar hogares responsables y amorosos.</p>
-        </div>
-        <img src="/media/fundacion1.webp" class="card-img-bottom" alt="Fundacion 1">
-      </div>
-      <div class="card">
-      </div>
-      <div class="card">
-        <div class="card-body">
-          <h3 class="card-title">Fundacion Corazon Animal</h3>
-          <p class="card-text">fundación sin animo de lucro que se encarga de dar albergue a perros y gatos de Medellin y el área metropolitana, en situación de abandono y vulnerabilidad con el fin de encontrar hogares responsables y amorosos.</p>
-        </div>
-        <img src="/media/fundacion1.webp" class="card-img-bottom" alt="Fundacion 1">
-      </div> -->
     </main>
-
 
     <footer>
       <div class="container-fluid p-3 bg-warning text-white">
           <div>
-          <img class="logo-footer" src="/media/logo.png" alt="logo">
-           <img class="facebook" src="/media/facebook.png" alt="logo">
-           <img class="instagram" src="/media/instagram.png" alt="logo" >
+            <img class="logo-footer" src="/media/logo.png" alt="logo">
+            <img class="facebook" src="/media/facebook.png" alt="logo">
+            <img class="instagram" src="/media/instagram.png" alt="logo" >
           </div>
       <p class="copy-right">
         © 2023 Todos los derechos reservados | Términos y condiciones | Política de tratamiento de datos e información
