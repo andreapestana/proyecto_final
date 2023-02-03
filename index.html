@@ -6,8 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Man's best friend</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/style.css">
     <link rel="shortcut icon" href="./media/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 <body>
     <header>
@@ -64,32 +65,40 @@
               <span class="carousel-control-next-icon" aria-hidden="true"></span>
               <span class="visually-hidden">Next</span>
             </button>
-          </div>
+          </div> 
+                
 <div class="card-container">
-  <div class="card text-bg-dark mb-3 container-fluid" style="max-width: 70rem;">
-    <div class="card-header">Why is your dog your best friend?</div>
-    <div class="card-body">
-      <p class="card-text">On several occasions, the dog has been declared as man's best friend, because during its existence it has proven its loyalty, fidelity and even its ability to give its life for its loved ones. In fact, you can be sure that your furry companion will always be by your side, regardless of your presence, he will offer you his protection and give you sincere love.</p>
+  <div data-aos="fade-right">
+    <div class="card text-bg-dark mb-3 container-fluid" style="max-width: 70rem;">
+      <div class="card-header">Why is your dog your best friend?</div>
+      <div class="card-body">
+        <p class="card-text">On several occasions, the dog has been declared as man's best friend, because during its existence it has proven its loyalty, fidelity and even its ability to give its life for its loved ones. In fact, you can be sure that your furry companion will always be by your side, regardless of your presence, he will offer you his protection and give you sincere love.</p>
+      </div>
     </div>
   </div>
-  <div class="card text-bg-dark mb-3 container-fluid" style="max-width: 70rem;">
-    <div class="card-header">Where did the phrase ‘a dog is a man's best friend’ come from?</div>
-    <div class="card-body">
-      <p class="card-text">It is claimed that the first time the phrase ‘man’s best friend’ was used, was in 1789 by King Frederick of Prussia.
-        “The only, absolute and best friend that a man has, in this selfish world, the only one that will not betray or deny him, is his DOG.”
-        He was talking about his Italian Greyhound when he used this phrase.
-        It was also used in a poem by Ogden Nash titled ‘An Introduction to Dogs.’ Here is the paragraph in which it is mentioned, right at the beginning of the poem.
-        ‘The dog is man's best friend.</p>
+  <div data-aos="fade-left">
+    <div class="card text-bg-dark mb-3 container-fluid" style="max-width: 70rem;">
+      <div class="card-header">Where did the phrase ‘a dog is a man's best friend’ come from?</div>
+      <div class="card-body">
+        <p class="card-text">It is claimed that the first time the phrase ‘man’s best friend’ was used, was in 1789 by King Frederick of Prussia.
+          “The only, absolute and best friend that a man has, in this selfish world, the only one that will not betray or deny him, is his DOG.”
+          He was talking about his Italian Greyhound when he used this phrase.
+          It was also used in a poem by Ogden Nash titled ‘An Introduction to Dogs.’ Here is the paragraph in which it is mentioned, right at the beginning of the poem.
+          ‘The dog is man's best friend.</p>
+      </div>
     </div>
   </div>
-  <div class="card text-bg-dark mb-3 container-fluid" style="max-width: 70rem;">
-    <div class="card-header">Why are dogs friends with humans?</div>
-    <div class="card-body">
-      <p class="card-text">Well nowadays, it’s easy to see why we get so much out of our canine companions.
-        We provide everything for them including shelter, warmth, food and safety. Modern domesticated dogs have come to see this as a natural way of living.
-        And as mentioned above, wild wolves may have initially become friends with humans because they either realised we were an additional food source (giving them scraps) or they figured out it’s better to be friendly to us and survive than cause conflict and risk being killed.</p>
+  <div data-aos="fade-right">
+    <div class="card text-bg-dark mb-3 container-fluid" style="max-width: 70rem;">
+      <div class="card-header">Why are dogs friends with humans?</div>
+      <div class="card-body">
+        <p class="card-text">Well nowadays, it’s easy to see why we get so much out of our canine companions.
+          We provide everything for them including shelter, warmth, food and safety. Modern domesticated dogs have come to see this as a natural way of living.
+          And as mentioned above, wild wolves may have initially become friends with humans because they either realised we were an additional food source (giving them scraps) or they figured out it’s better to be friendly to us and survive than cause conflict and risk being killed.</p>
+      </div>
     </div>
   </div>
+  
 </div>
         
     </main>
@@ -107,5 +116,9 @@
      </div>    
         </footer>
        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
-</body>
+       <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+       <script>
+         AOS.init();
+       </script>
+      </body>
 </html>
